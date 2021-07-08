@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+	Uri="file:///D:/WinProject/New folder/WapProjTemplateDemo.appinstaller"
+	Version="1.0.3.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+	<MainBundle
+		Name="0b05aaed-3ab5-4658-8b25-ef178b2ca1a1"
+		Version="1.0.3.0"
+		Publisher="CN=deepak"
+		Uri="file:///D:/WinProject/New folder/WapProjTemplateDemo_1.0.3.0_Test/WapProjTemplateDemo_1.0.3.0_x64.msixbundle" />
+	<Dependencies>
+		<Package
+			Name="Microsoft.NET.Native.Framework.1.7"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			Version="1.7.27413.0"
+			ProcessorArchitecture="x64"
+			Uri="file:///D:/WinProject/New folder/WapProjTemplateDemo_1.0.3.0_Test/Dependencies/x64/Microsoft.NET.Native.Framework.1.7.appx" />
+		<Package
+			Name="Microsoft.NET.Native.Runtime.1.7"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			Version="1.7.25531.0"
+			ProcessorArchitecture="x64"
+			Uri="file:///D:/WinProject/New folder/WapProjTemplateDemo_1.0.3.0_Test/Dependencies/x64/Microsoft.NET.Native.Runtime.1.7.appx" />
+		<Package
+			Name="Microsoft.VCLibs.140.00"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			Version="14.0.27810.0"
+			ProcessorArchitecture="x64"
+			Uri="file:///D:/WinProject/New folder/WapProjTemplateDemo_1.0.3.0_Test/Dependencies/x64/Microsoft.VCLibs.x64.14.00.appx" />
+	</Dependencies>
+	<UpdateSettings>
+		<OnLaunch
+			HoursBetweenUpdateChecks="0" />
+	</UpdateSettings>
+</AppInstaller>
